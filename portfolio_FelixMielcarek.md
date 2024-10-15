@@ -74,3 +74,44 @@ Voici maintenant le tableau représentant mon analyse pour chaque sujet :
 | Docgen | 8h | <p style="color:red">X</p> | <p style="color:green">1</p> | <p style="color:red">X</p> | 17/53 |
 | Push it down | 12h | <p style="color:red">X</p> | <p style="color:red">2</p> | <p style="color:green">Application graphique</p> | 15/53 |
 
+## Présentation du travail
+
+### TP7
+
+Suite à l'analyse rapide des sujets, le premier projet que j'ai entrepris est le TP7 : création d'un Sudoku graphique (je l'ai renommé Cdoku par praticité).
+
+#### Objectifs
+
+Mes objectifs/critères d'acceptances pour ce projet sont les suivants :
+* Le jeu est jouable tel que décrit dans le sujet du TP :
+    * Jouable à la souris
+    * Interface graphique
+    * Ajout d'un numéro avec cadran à côté de la grille
+* Il est possible d'ajouter des notes dans chaque case : (numéros que l'on pense pouvant être dans la case)
+* La validation d'une case met à jour les notes (on enlève de la note d'une case le numéro validé si la case est dans la même ligne/colonne/division).
+
+#### Tâches
+
+Voici les groupes de tâches que j'ai prévu pour ce projet :
+* **T1** : développement des règles du jeu
+* **T2** : ajout de la sérialisation des grilles
+* **T3** : développement de l'interface graphique
+* **T4** : développement de la gestion d'une partie de jeu
+* **T5** : développement de la liaison entre l'IHM et la partie de jeu
+
+J'ai estimé la réalisation de ce projet à 6 heures soit 3 séances de TP. Voici comment je souhaite répartir les tâches par séance :
+
+| Séances | Tâches |
+| :-: | :-: |
+| 1 | 1  |
+| 1 | 2  |
+| 2 | 3  |
+| 3 | 4  |
+| 3 | 5  |
+
+#### Idées supplémentaires
+
+Voici les fonctionnalités que j'aimerais implémenter si j'avais plus de temps à disposition :
+* Grille stylisée : couleur pour la case sélectionné, surlignage pour ligne/colonne/division de la case sélectionné, taille de la police adapté (notes en plus petit)
+* Jouable au clavier : flèches pour se déplacer sur la grille et chiffres pour placer un numéro dans un case ('N'+'1' pour placer une note)
+* Animation de victoire
